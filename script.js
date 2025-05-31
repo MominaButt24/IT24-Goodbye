@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const typed = new Typed('#typed-text', {
-    strings: ["You truly leveled up! A thank you note 🌝"],
+    strings: ["You truly leveled up!  A thank you note 🌝"],
     typeSpeed: 50,
     backSpeed: 25,
     showCursor: true,
@@ -24,8 +24,8 @@ const ctx = canvas.getContext("2d");
 canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
 
-const message = "0101HelloIT24";
-const fontSize = 16;
+const message = "0101helloIT24";
+const fontSize = 12;
 // const columns = Math.floor(canvas.width / fontSize);
 // const drops = Array(columns).fill(1);
 const columns = canvas.width / fontSize;
