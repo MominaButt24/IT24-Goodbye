@@ -280,14 +280,14 @@ body {
     font-size: 1.4rem;
     font-style: italic;
   }
-  .social-icons{
+/*   .social-icons{
     gap: 5px;
-  }
+  } */
   .social-icons a{
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 3rem;
+    height: 3rem;
     font-size: large;
-    margin: 2.5rem 0.9rem 2.5rem 0;
+    margin: 2.2rem 0.9rem 2.2rem 0;
   }
 }
 
