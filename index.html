@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farewell Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <div class="background">
+    <canvas id="matrix"></canvas>
+  </div>
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="tagline">#IT24 | Goodbyes are new beginnings 🌟</div>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navigation">
+      
+        <a href="#thankyou">Thankyou</a>
+        <a href="#suggestions">Suggestions</a>
+        <a href="#advice">Reminders</a>
+        <a href="#connect">Connect</a>
+     
+    </nav>
+  </header>
+
+  <div class="note-card">
+      <p class="note-text">Hover to see a secret note!</p>
+      <div class="note-hidden">Sometimes to survive, we must become more than we were programmed to be. - The wild Robot</div>
+  </div>
+
+  <!-- Storyline Section -->
+  <section id="story" class="story-section">
+    <div id="typed-text"></div>
+    <!-- <div id="fullStory" class="hidden">
+      <p>Your full story content goes here...</p>
+    </div> -->
+    <div class="log-toggle">
+      <button id="readStoryBtn" onclick="toggleLog()">Click me</button>
+
+    </div>
+
+    <div class="code-log" id="codeLog"></div>
+  </section>
+
+  <!-- Three-Box Section -->
+  <section class="three-box-section">
+    <div id="suggestions" class="box">
+      <h2>Some Suggestions</h2>
+      <p>Click to see</p>
+    </div>
+    <div id="advice" class="box">
+      <h2>Gentle Reminders</h2>
+      <p>Click to see</p>
+    </div>
+    <div id="connect" class="box">
+      <h2>Connect</h2>
+      <p>Click to see</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>💡 Keep building, keep believing | #IT24 | @Momina</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
