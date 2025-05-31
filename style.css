@@ -280,9 +280,12 @@ body {
     font-size: 1.4rem;
     font-style: italic;
   }
+  .social-icons{
+    gap: 5px;
+  }
   .social-icons a{
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
     font-size: large;
     margin: 2.5rem 0.9rem 2.5rem 0;
   }
